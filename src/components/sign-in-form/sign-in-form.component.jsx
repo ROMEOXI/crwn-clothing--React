@@ -53,6 +53,7 @@ const SignInForm = () => {
         <FormInput
           label='Email'
           type='email'
+          autoComplete="new-password"
           required
           onChange={handleChange}
           name='email'
@@ -62,6 +63,7 @@ const SignInForm = () => {
         <FormInput
           label='Password'
           type='password'
+          autoComplete="new-password"
           required
           onChange={handleChange}
           name='password'
